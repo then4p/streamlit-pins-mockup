@@ -13,7 +13,7 @@ st.write(
 
 script_path = os.path.dirname(__file__)
 rel_path = "images"
-abs_file_path = f"resources"
+abs_file_path = f"resources/labelling"
 files = os.listdir(abs_file_path)
 
 if "annotations" not in st.session_state:
